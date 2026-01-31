@@ -67,6 +67,9 @@ Imagine the discharge process as a relay race:
 
 Middleware in software acts like these checkpoints and handoffs, ensuring every request (patient discharge) is processed in the right order, with full accountability and visibility.
 
+
+## 4. Technical Deep Dive
+
 **A. What Is Middleware?**
 
 -   Middleware is a function that sits between the incoming request and the final handler.
@@ -107,6 +110,7 @@ Middleware in software acts like these checkpoints and handoffs, ensuring every 
 -   If an error is passed to  `next(err)`, Express skips to error-handling middleware.
     
 ![Tool Box Challenge](https://i.postimg.cc/tgrv8R9M/Middleware.png)
+
  **C. Built-in Middleware Example**
 
   ```typescript

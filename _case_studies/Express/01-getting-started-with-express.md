@@ -263,11 +263,11 @@ app.get('/events', (req, res) => {
 -   If you see “Cannot GET /something,” make sure you’ve defined a route for that path.
     
 
-## **F. Visual Flow: How Express Handles Requests**
+**F. Visual Flow: How Express Handles Requests**
 
 <img src="https://i.postimg.cc/gkkNCSzT/express2.png" width="400px" />
 
-## **G. How This Setup Directly Solves the Community Center’s Needs**
+**G. How This Setup Directly Solves the Community Center’s Needs**
 
 -   **No more lost notes:**  Every request is logged and answered automatically.
     

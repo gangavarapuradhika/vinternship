@@ -56,6 +56,7 @@ Imagine a real admissions desk:
 
 Request validation in software is like this admissions desk: it ensures that every submission is checked for completeness and correctness before it enters the system.
 
+## 4. Technical Deep Dive
 
  **A. Why Validate Requests?**
 
@@ -86,7 +87,7 @@ Request validation in software is like this admissions desk: it ensures that eve
 
 Let’s walk through how “BrightFuture University” ensures every application is perfect before it’s reviewed:
 
-## **A. Designing the Application Data Structure**
+**A. Designing the Application Data Structure**
 
 Picture the chaos if applications were still paper forms: some missing essays, some with unreadable birthdates, and some with no contact info.  
 To fix this, the university creates a clear digital structure for every application-so nothing is forgotten, and every reviewer knows exactly what to expect.
@@ -110,7 +111,7 @@ To fix this, the university creates a clear digital structure for every applicat
 -   By making these fields required, the system ensures no application is missing crucial details.
     
 
-## **B. Setting Up Validation Rules**
+**B. Setting Up Validation Rules**
 
 
 Imagine the admissions staff with a checklist for every application:
@@ -167,7 +168,7 @@ const applicationValidation = [
 -   If any rule fails, the application is rejected with a specific message.
     
 
-## **C. Implementing the Route Handler**
+**C. Implementing the Route Handler**
 
 
 Just like a staff member checking each application, our route handler reviews the checklist and gives instant feedback if anything is missing or wrong.
@@ -194,7 +195,7 @@ Just like a staff member checking each application, our route handler reviews th
 -   Only applications that pass every check are accepted for review.
     
 
-## **D. How This Solves the University’s Problems**
+**D. How This Solves the University’s Problems**
 
 -   **No more missing essays or grades:**  The system blocks incomplete applications.
     
@@ -205,7 +206,7 @@ Just like a staff member checking each application, our route handler reviews th
 -   **Clear, actionable feedback:**  Students know exactly what to fix, reducing frustration and support requests.
     
 
-## **E. Visualizing the Validation Flow**
+**E. Visualizing the Validation Flow**
 
 text
 
@@ -273,5 +274,4 @@ text
 
 ## 10. Coming up next
 
-*
 Learn how to combine validation with authentication and authorization, so only the right people can submit or review applications!

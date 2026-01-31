@@ -126,6 +126,7 @@ app.use("/orders", OrderController);
 app.use("/inventory", InventoryController);
   ```
 
+## 4. Technical Deep Dive
 
  **A. Organizing Workflows with Routing Controllers**
 

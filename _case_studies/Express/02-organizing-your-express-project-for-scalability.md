@@ -60,6 +60,9 @@ A well-structured Express project is just like that:
     
 -   Volunteers (developers) can work in parallel without tripping over each other.
     
+----------
+
+## 4. Technical Deep Dive
 
 **A. Why Project Structure Matters**
 
@@ -205,7 +208,7 @@ app.use('/classes', classesRouter);
 -   If you use a database, define your data structure in  `models/`.
     
 
-## 4. Step-by-Step Data Modeling & Code Walkthrough
+## 5. Step-by-Step Data Modeling & Code Walkthrough
 
 Let’s see how this structure directly solves Greenfield Community Center’s problems:
 
@@ -293,7 +296,7 @@ app.use('/contact', contactRouter);
 -   `app.use()`  mounts each router at a specific path, keeping your app organized.
     
 
-## 7. Common Pitfalls & Best Practices
+## 8. Common Pitfalls & Best Practices
 
 | Pitfall                        | Best Practice                                    |
 |---------------------------------|--------------------------------------------------|
@@ -303,7 +306,7 @@ app.use('/contact', contactRouter);
 | Not using version control      | Use Git to track changes and collaborate        |
 
 
-## 8. Quick Recap & Key Takeaways
+## 9. Quick Recap & Key Takeaways
 
 -   A good project structure makes your app easier to grow, debug, and share.
     
@@ -312,7 +315,7 @@ app.use('/contact', contactRouter);
 -   Modular code means faster development and fewer bugs as your app grows.
     
 
-## 9. Optional: Programmer’s Workflow Checklist
+## 10. Optional: Programmer’s Workflow Checklist
 
 -   Use a  `routes/`  folder for all endpoints.
     
